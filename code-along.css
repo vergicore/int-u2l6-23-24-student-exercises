@@ -1,40 +1,45 @@
 /* CSS styling for code along */
 /* 1. Add a 5px, black, solid border to the div element with the class "header". */
-
+.header {
+  border: 5px solid black;
+}
 
 /* 2. Add a 5px, solid, yellow border to each individual image. */
+img {
+  border: 5px solid yellow;
 
 
-/* 3. Add 5px of padding to each individual image. */
+  /* 3. Add 5px of padding to each individual image. */
+  padding: 5px;
 
-
-/* 4. The pics are too close to each other. Add 5px of margin to each one. */
-
+  /* 4. The pics are too close to each other. Add 5px of margin to each one. */
+  margin: 5px;
+}
 
 .row1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .row2 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 24px;
-    background-color: #f5c842;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 24px;
+  background-color: #f5c842;
 }
 
 h1 {
-    border-bottom: 2px solid #f1f1f1;
-    width: 30%;
-    padding: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 35px;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
 }
 
 img {
-    width: 200px;
+  width: 200px;
 }
